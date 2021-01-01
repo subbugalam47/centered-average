@@ -1,0 +1,11 @@
+def centered_average(nums):
+    
+    min1=nums[0]
+    max1=nums[0]
+    for item in nums:
+        if item > max1:
+            max1 = item
+        if item < min1:
+            min1 = item
+    sum1=(sum(nums)-(min1+max1))/(len(nums)-2)
+    return sum1
