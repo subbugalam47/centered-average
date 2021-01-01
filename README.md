@@ -1,1 +1,1 @@
-# centered-avarage
+# centered-average
